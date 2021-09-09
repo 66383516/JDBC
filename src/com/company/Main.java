@@ -41,6 +41,7 @@ public class Main {
             //int sun = ps.executeUpdate();
             //执行查询
             ResultSet sun = ps.executeQuery();
+            System.out.println(sun);
             //System.out.print(sun);
             //5.处理查询结果集
             while(sun.next())
